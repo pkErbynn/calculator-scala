@@ -10,35 +10,38 @@ object Operator {
     println("1. add")
     println("2. subtract")
     println("3. multiply")
+    println("4. divide")
   }
 
-  def add(): Int = {
+  def add(): Double = {
     print("enter 1st value: ")
     print("enter 2nd value: ")
-    val x = scanner.nextLine().toInt
-    val y = scanner.nextLine().toInt
+    val x = scanner.nextLine().toDouble
+    val y = scanner.nextLine().toDouble
     x + y
   }
 
-  def subtract(x: Int, y: Int) = {
+  def subtract():Double = {
     print("enter 1st value: ")
     print("enter 2nd value: ")
-    val x = scanner.nextLine().toInt
-    val y = scanner.nextLine().toInt
+    val x = scanner.nextLine().toDouble
+    val y = scanner.nextLine().toDouble
     x - y
   }
-  def multiply(x: Int, y: Int) = {
+
+  def multiply(): Double = {
     print("enter 1st value: ")
     print("enter 2nd value: ")
-    val x = scanner.nextLine().toInt
-    val y = scanner.nextLine().toInt
+    val x = scanner.nextLine().toDouble
+    val y = scanner.nextLine().toDouble
     x * y
   }
-  def divide(x: Int, y: Int) = {
+
+  def divide() = {
     print("enter 1st value: ")
+    val x = scanner.nextLine().toDouble
     print("enter 2nd value: ")
-    val x = scanner.nextLine().toInt
-    val y = scanner.nextLine().toInt
+    val y = scanner.nextLine().toDouble
     x / y
   }
 

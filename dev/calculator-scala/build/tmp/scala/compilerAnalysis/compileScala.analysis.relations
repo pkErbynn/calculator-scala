@@ -1,20 +1,20 @@
 products:
-   src/main/scala/io/turntabl/calculator/Calc.scala -> build/classes/scala/main/io/turntabl/calculator/Calc$.class
-   src/main/scala/io/turntabl/calculator/Calc.scala -> build/classes/scala/main/io/turntabl/calculator/Calc$delayedInit$body.class
-   src/main/scala/io/turntabl/calculator/Calc.scala -> build/classes/scala/main/io/turntabl/calculator/Calc.class
    src/main/scala/io/turntabl/calculator/Operator.scala -> build/classes/scala/main/io/turntabl/calculator/Operator$.class
    src/main/scala/io/turntabl/calculator/Operator.scala -> build/classes/scala/main/io/turntabl/calculator/Operator.class
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> build/classes/scala/main/io/turntabl/calculator/SimpleCalculator$$.class
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> build/classes/scala/main/io/turntabl/calculator/SimpleCalculator$$delayedInit$body.class
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> build/classes/scala/main/io/turntabl/calculator/SimpleCalculator$.class
 binary dependencies:
-   src/main/scala/io/turntabl/calculator/Calc.scala -> /home/pkerbynn/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
-   src/main/scala/io/turntabl/calculator/Calc.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
    src/main/scala/io/turntabl/calculator/Operator.scala -> /home/pkerbynn/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
    src/main/scala/io/turntabl/calculator/Operator.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> /home/pkerbynn/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
 source dependencies:
-   src/main/scala/io/turntabl/calculator/Calc.scala -> src/main/scala/io/turntabl/calculator/Operator.scala
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> src/main/scala/io/turntabl/calculator/Operator.scala
 external dependencies:
 class names:
-   src/main/scala/io/turntabl/calculator/Calc.scala -> io.turntabl.calculator.Calc
-   src/main/scala/io/turntabl/calculator/Calc.scala -> io.turntabl.calculator.Calc$
-   src/main/scala/io/turntabl/calculator/Calc.scala -> io.turntabl.calculator.Calc$delayedInit$body
    src/main/scala/io/turntabl/calculator/Operator.scala -> io.turntabl.calculator.Operator
    src/main/scala/io/turntabl/calculator/Operator.scala -> io.turntabl.calculator.Operator$
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> io.turntabl.calculator.SimpleCalculator$
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> io.turntabl.calculator.SimpleCalculator$$
+   src/main/scala/io/turntabl/calculator/SimpleCalculator$.scala -> io.turntabl.calculator.SimpleCalculator$$delayedInit$body
