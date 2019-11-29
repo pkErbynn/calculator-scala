@@ -68,7 +68,7 @@
   </component>
   <component name="RunManager" selected="Application.Calc">
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="io.turntabl.calculator.SimpleCalculator$" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.calculator.SimpleCalculator" />
       <module name="scala-getting-started.main" />
       <extension name="coverage">
         <pattern>
